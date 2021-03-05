@@ -1,0 +1,7 @@
+db_name= projets5_grunivertaires
+user = root
+password = 
+ip_serveur = 192.168.1.18
+port= 3302
+
+

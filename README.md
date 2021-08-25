@@ -1,4 +1,4 @@
-# GestionDesRessourcesUniversitaires
+## Projet de Gestion des Ressources Universitaires
 + Si vous n'avez ni **Java** et/ou ni **Wamp** (ou **Lamp**) vous devez avoir une connexion internet afin de télécharger les différents installateurs.
 
 + Si ce n'est pas déjà fait téléchargez **Java** à cette adresse:
@@ -10,11 +10,11 @@
 [lien](https://sourceforge.net/projects/wampserver/files/)
 
 **NB** : (Pour **Wamp** vous aurez besoin (si non installé) de : 
-+ Redistribuable Visual C++ pour Visual Studio 2015: [lien](https://www.microsoft.com/fr-FR/download/details.aspx?id=48145)
+- [x] Redistribuable Visual C++ pour Visual Studio 2015: [lien](https://www.microsoft.com/fr-FR/download/details.aspx?id=48145)
 
-+ et Redistribuable Visual C++ pour Visual Studio 2013: [lien](https://www.microsoft.com/fr-FR/download/details.aspx?id=40784)
+- [x] Redistribuable Visual C++ pour Visual Studio 2013: [lien](https://www.microsoft.com/fr-FR/download/details.aspx?id=40784)
 
-+ Si vous êtes sur Windows 10 vous allez devoir désactiver ***IIS*** pour executer correctement Wamp (expliqué sur ce lien): [lien](https://openclassrooms.com/forum/sujet/probleme-wampserver-windows-10#message-89111670)
+- [x] Un plus, si vous êtes sur Windows 10 pensez à désactiver ***IIS*** pour executer correctement Wamp (expliqué sur ce lien): [lien](https://openclassrooms.com/forum/sujet/probleme-wampserver-windows-10#message-89111670)
 
 + Installez le (lancer l'installateur avec les droits d'administrateurs)
 
@@ -32,7 +32,7 @@
 3. Mettez **root** dans le champ *Utilisateur* et laissez le champ **Mot de passe** vide. Le champ *Choix du serveur* doit être sur **MySQL**. Connectez-vous.
 4. Cliquez sur **Bases de données** dans la barre de menu en haut
 
-5. Dans la partie *Créer une base de données* , entrez le nom de la base de données (par défaut "projetbd") et cliquez sur **créer**.
+5. Dans la partie *Créer une base de données* , entrez le nom de la base de données (par défaut **projetbd**) et cliquez sur **créer**.
 6. Si toutes fois vous souhaitez utiliser *un autre nom de base de données*, assurez-vous d'avoir modifié le nom initial dans le fichier de **configuration et le MAIN du serveur**.
 
 7. Importer la base de données ou ouvrez la dans un éditeur de texte comme **Sublime Text** et copiez son contenu puis coller dans la partie **SQL** de mysql et exécutez le script.
